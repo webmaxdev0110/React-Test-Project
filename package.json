@@ -1,0 +1,30 @@
+{
+  "name": "sally-test-project",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "f3tch": "^1.0.3",
+    "lodash": "^4.17.4",
+    "material-ui": "^0.20.0",
+    "material-ui-datetimepicker": "^1.0.5",
+    "material-ui-textfield-icon": "^0.2.3",
+    "radium": "^0.19.6",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-material-icons": "^1.0.3",
+    "react-redux": "^5.0.6",
+    "react-scripts": "1.0.17",
+    "redux": "^3.7.2",
+    "redux-actions": "^2.2.1",
+    "redux-saga": "^0.16.0"
+  },
+  "scripts": {
+    "start": "react-scripts start & json-server src/data/db.json --port 3004",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom"
+  },
+  "devDependencies": {
+    "json-server": "^0.12.1",
+    "redux-devtools-extension": "^2.13.2"
+  }
+}
